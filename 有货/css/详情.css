@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,html {
+	font-size: 16px;
+	background: #EEEEEE;
+}
+
+header {
+	width: 100%;
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+header i:nth-child(1) {
+	font-size: .5rem;
+	color: white;
+	margin-top: .3rem;
+	margin-left: .3rem;
+}
+
+header .browser-header {
+	font-size: .4rem;
+	color: white;
+	font-weight: bold;
+	padding-top: .3rem;
+	padding-bottom: .38rem;
+}
+
+header i:nth-child(3) {
+	font-size: .5rem;
+	color: white;
+	margin-top: .3rem;
+	margin-right: .3rem;
+}
+
+.swiper-container {
+	width: 100%;
+	background: white;
+}
+
+
+
+.swiper-slide img {
+	width: 70%;
+	text-align: center;
+}
+
+.Trade_name{
+	box-sizing: border-box;
+    padding: .3rem .3rem;
+    width: 100%;
+    background: #515150;
+    color: #fff;
+    font-size: .35rem;
+}
+
+.price{
+	width: 100%;
+	background: white;
+	padding: .3rem .3rem;
+	font-size: .35rem;
+	color: red;
+	border-bottom: 1px solid #e0e0e0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.DETAILS{
+	width: 100%;
+	background: white;
+	margin-top: 1rem;
+	border-top: 1px solid #e0e0e0
+}
+
+.DETAILS h2{
+	width: 90%;
+	margin: 0 auto;
+	font-size: .4rem !important;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+	border-bottom: 1px solid #E0E0E0;
+	
+}
+
+.DETAILS h2 span{
+	display: inline-block;
+	color: #a0a0a0;
+	font-size: .3rem !important;
+	margin-left: .1rem;
+	
+}
+
+.DETAILS div{
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	width: 100%;
+	text-align: center;
+}
+
+.DETAILS img{
+	width: 90%;
+	text-align: center;
+}
+
+
+
+
+
+
+footer{
+	width: 100%;
+	border-top: 1px solid #e0e0e0;
+	position: fixed;
+	bottom: 0;
+	background: white;
+	
+	
+}
+
+footer i{
+	display: inline-block;
+	width: 100%;
+	font-size: .55rem !important;
+	color: #444;
+}
+
+footer a{
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+	/*background: salmon;*/
+	font-size: .12rem;
+	color: #444;
+	padding-top: .1rem;
+	padding-bottom: .1rem;
+}
+
+footer span{
+	text-align: center;
+	display: inline-block;
+	background: red;
+	color: white;
+	width: 2.5rem;
+	height: .8rem;
+	font-size: .4rem;
+	font-weight: bold;
+	line-height: .75rem;
+	position: absolute;
+	margin-top: .15rem;
+}
